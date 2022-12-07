@@ -6,7 +6,7 @@
 /*   By: garibeir < garibeir@student.42lisboa.com > +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/28 14:59:38 by garibeir          #+#    #+#             */
-/*   Updated: 2022/12/07 18:15:50 by garibeir         ###   ########.fr       */
+/*   Updated: 2022/12/07 18:28:57 by garibeir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,13 +17,13 @@
 # include <stdlib.h>
 # include <unistd.h>
 
-# ifndef BUF_SIZE
-#  define BUF_SIZE 4096
+# ifndef BUFFER_SIZE
+#  define BUFFER_SIZE 1
 # endif
 
 char	*get_next_line(int fd);
-int		get_len(int fd);
 char	*ft_strjoin(char *s1, char *s2);
 size_t	ft_strlen(char *s);
 int		ft_clean(char *s);
+
 #endif
